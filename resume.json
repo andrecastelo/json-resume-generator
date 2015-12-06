@@ -1,0 +1,50 @@
+{
+    "name": "André Castelo",
+    "github": "http://github.com/andrecastelo",
+    "address": [
+        "Niterói, RJ",
+        "Brazil"
+    ],
+    "email": "andrecastelo@gmail.com",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, hic fugiat nisi ea qui? Qui cumque doloribus nulla ullam tenetur magnam accusamus ut alias minus eos, dignissimos quasi nostrum voluptas.",
+
+    "education": [
+        {
+            "school": "Puc-Rio",
+            "location": "Rio de Janeiro, RJ",
+            "description": "Post graduation in Web Design",
+            "duration": "March 2011 - July 2011"
+        },
+        {
+            "school": "Federal University of Paraíba",
+            "location": "João Pessoa, PB",
+            "description": "Bachelor's in Computer Science",
+            "duration": "March 2006 - December 2010"
+        }
+    ],
+
+    "portfolio": [
+        {
+            "name": "LookingForGroup.gg",
+            "url": "http://www.lookingforgroup.gg",
+            "description": "Minimalist web platform created to help Starcraft 2 players find other similar minded players to tackle the game challenges together. Developed in an API + Client architecture using Laravel 5.1, AngularJS 1.3 and Socket.IO, with fully covered BDD tests written in Frisby.js. Deployed on Linode / Ubuntu."
+        }
+    ],
+
+    "experience": [
+        {
+            "name": "Estratégia Mkt Digital",
+            "location": "Rio de Janeiro, BR",
+            "position": "Full-stack Javascript/PHP Developer",
+            "description": "ehhehe",
+            "duration": "November/2013 - Present"
+        },
+        {
+            "name": "Rothier Design",
+            "location": "Rio de Janeiro, BR",
+            "position": "Front-end Engineer",
+            "description": "ehhehe",
+            "duration": "August/2013 - November/2013"
+        }
+    ]
+}

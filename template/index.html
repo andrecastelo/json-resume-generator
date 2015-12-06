@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>{{ name }}</title>
+    <meta charset="utf-8">
+    <link href="main.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Gudea">
+    <link rel="shortcut icon" href="http://faviconist.com/icons/f9294cc2281f1004e846adbea5f4b316/favicon.ico" />
+</head>
+<body>
+    <header class="header-details">
+        <h1 class="name">{{ name }} | </h1>
+        <article class="links-container">
+            {{#if github}}
+            <a class="links" href="https://github.com/LouisaBarrett" target="_blank">
+                <img src="./images/gh_icon.png" alt="github icon" width="21" height="21">
+                GitHub
+            </a>
+            {{/if}}
+            {{#if linkedin}}
+            <a class="links" href="https://www.linkedin.com/in/louisabarrett/" target="_blank">
+                <img src="./images/in_icon.png" alt="linkedin icon" width="18" height="18">
+                LinkedIn
+            </a>
+            {{/if}}
+        </article><br>
+        <article class="contact-information">
+            {{#each address }}
+            <p class="contact-deets">{{ this }} | </p>
+            {{/each}}
+            <a class="links" href="mailto:{{ email }}">e: {{ email }}</a>
+        </article>
+    </header>
+    <section class="content">
+        {{#if summary}}
+        <h2 class="category-headers">Summary</h2><hr>
+        <p class="category-description-main">{{ summary }}</p>
+        {{/if}}
+
+        <h2 class="category-headers">Education</h2><hr>
+        {{#each education}}
+        <p class="primary-titles">
+            {{ school }}
+            {{#if location}}
+                | <span class="location">{{ location }}</span>
+            {{/if}}
+        </p>
+        <p class="category-details">
+            {{ description }}
+        </p>
+        {{/each}}
+
+        <h2 class="category-headers">Code</h2><hr>
+
+        {{#each portfolio}}
+        <a href="{{url}}" class="primary-titles">{{ name }} | <p class="links">{{ url }}</p></a>
+        <div class="category-description">{{ description }}</div>
+        {{/each}}
+
+        <h2 class="category-headers">Professional Experience</h2><hr>
+
+        {{#each experience }}
+        <p class="primary-titles">
+            {{ name }}
+            {{#if location}} | <span class="location">{{ location }}</span>{{/if}}
+        </p>
+        <div class="category-details">
+            {{position}} <br>
+            {{duration}}
+        </div>
+        <div class="category-description">{{description}}</div>
+        {{/each}}
+    </section>
+</body>
