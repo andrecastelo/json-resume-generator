@@ -7,7 +7,8 @@ var mkdirp      = require('mkdirp');
 var ncp         = require('ncp');
 var rimraf      = require('rimraf');
 
-var templateFile    = "template/index.html";
+var templateFolder  = "template/srt";
+var templateFile    = templateFolder + '/index.html';
 var additionalFiles = [ 'css', 'js' ];
 
 async.waterfall([
@@ -26,7 +27,7 @@ function clearDistFolder(callback) {
 }
 
 function copyFilesToDist(callback) {
-    ncp('template', 'dist', function(error) {
+    ncp(templateFolder, 'dist', function(error) {
         console.log('everything copied');
         callback(null);
     });
