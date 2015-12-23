@@ -1,27 +1,58 @@
 {
     "name": "André Castelo",
     "github": "http://github.com/andrecastelo",
+    "title": "Full-stack Web Developer",
     "address": [
         "Niterói, RJ",
         "Brazil"
     ],
     "email": "andrecastelo@gmail.com",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, hic fugiat nisi ea qui? Qui cumque doloribus nulla ullam tenetur magnam accusamus ut alias minus eos, dignissimos quasi nostrum voluptas.",
+    "summary": "Full-stack developer experienced in HTML, CSS, Javascript (using front-end libraries like jQuery and Angular.js), PHP (with Laravel and CodeIgniter). I'm well versed in front-end tooling, like Grunt, Gulp and Bower, and using Node with Express to serve Angular applications.",
 
     "education": [
         {
             "school": "Puc-Rio",
             "location": "Rio de Janeiro, RJ",
-            "description": "Post graduation in Web Design",
+            "description": "Post graduation in Web Design with focus on project planning and management.",
             "duration": "March 2011 - July 2011"
         },
         {
             "school": "Federal University of Paraíba",
             "location": "João Pessoa, PB",
-            "description": "Bachelor's in Computer Science",
+            "description": "Bachelor's in Computer Science.",
             "duration": "March 2006 - December 2010"
         }
     ],
+
+    "skills": [
+        {
+            "name": "API Design",
+            "description": "Create APIs using best practices in CodeIgniter and Laravel, leveraging the NodeJS ecosystem for automation and testing."
+        },
+        {
+            "name": "Responsive Development",
+            "description": "Successfully write mobile-first front-end code, with focus on readability and usability."
+        }
+    ],
+
+    "technical": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "JQuery",
+        "MySQL",
+        "SASS",
+        "AngularJS",
+        "CodeIgniter",
+        "Laravel",
+        "Git",
+        "NodeJS",
+        "GulpJS",
+        "GruntJS",
+        "Ruby"
+    ],
+
 
     "portfolio": [
         {
@@ -33,17 +64,17 @@
 
     "experience": [
         {
-            "name": "Estratégia Mkt Digital",
+            "name": "Estratégia Marketing Digital",
             "location": "Rio de Janeiro, BR",
             "position": "Full-stack Javascript/PHP Developer",
-            "description": "ehhehe",
+            "description": "Creation and maintenance of PHP applications using CodeIgniter, Laravel and AngularJS. Development of standard and RESTful API/Client applications - writing APIs for native mobile apps and consuming them using the Angular JS front-end framework.",
             "duration": "November/2013 - Present"
         },
         {
             "name": "Rothier Design",
             "location": "Rio de Janeiro, BR",
             "position": "Front-end Engineer",
-            "description": "ehhehe",
+            "description": "Focus on translating Photoshop templates to responsive HTML, ready for integration with back-end technologies. Familiarity with static sites generation, for rapid and DRY development.",
             "duration": "August/2013 - November/2013"
         }
     ]
