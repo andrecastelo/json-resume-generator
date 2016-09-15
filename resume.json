@@ -40,17 +40,20 @@
         "CSS",
         "Javascript",
         "PHP",
-        "JQuery",
-        "MySQL",
-        "SASS",
+        "Python",
         "AngularJS",
+        "Django",
+        "MySQL",
+        "JQuery",
+        "SASS",
         "CodeIgniter",
+        "BackboneJS",
         "Laravel",
         "Git",
-        "NodeJS",
         "GulpJS",
-        "GruntJS",
-        "Ruby"
+        "Ruby",
+        "NodeJS",
+        "GruntJS"
     ],
 
 
@@ -64,11 +67,25 @@
 
     "experience": [
         {
+            "name": "Toptal.com",
+            "location": "Remote",
+            "position": "Full-stack web developer",
+            "description": "Freelance web developer focusing on Angular and PHP development using Laravel 5",
+            "duration": "August/2016 - present"
+        },
+        {
+            "name": "WPensar Group",
+            "location": "Niterói, BR",
+            "position": "Full-stack Javascript/Python Developer",
+            "description": "Adding new features and maintaining huge Django and Angular Educational Management ERP.",
+            "duration": "March/2016 - present"
+        },
+        {
             "name": "Estratégia Marketing Digital",
             "location": "Rio de Janeiro, BR",
             "position": "Full-stack Javascript/PHP Developer",
             "description": "Creation and maintenance of PHP applications using CodeIgniter, Laravel and AngularJS. Development of standard and RESTful API/Client applications - writing APIs for native mobile apps and consuming them using the Angular JS front-end framework.",
-            "duration": "November/2013 - Present"
+            "duration": "November/2013 - March/2016"
         },
         {
             "name": "Rothier Design",
